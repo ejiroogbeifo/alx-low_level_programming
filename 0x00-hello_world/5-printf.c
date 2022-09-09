@@ -36,3 +36,6 @@ Untracked files:
 	../README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 12f3fbd] Hello, printf
+ 2 files changed, 39 insertions(+)
+ create mode 100755 0x00-hello_world/5-printf.c
