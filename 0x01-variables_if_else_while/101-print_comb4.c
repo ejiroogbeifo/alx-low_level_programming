@@ -11,6 +11,7 @@ int main(void)
 	int l_d;
 	
 	while (c <= 999)
+		
 	{
 		f_d = (c / 100 + '0');
 
@@ -29,7 +30,6 @@ int main(void)
 
 			{
 				putchar(',');
-
 				putchar(' ');
 			}
 		}
