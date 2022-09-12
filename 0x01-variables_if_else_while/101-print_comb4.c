@@ -1,40 +1,44 @@
 #include <stdio.h>
+
 /**
- * main - program that prints all possible different combinations of 3 digits.
- * Return: 0
+ * main - Prints numbers between 012 to 789.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int m_d;
-	int l_d;
-	
-	while (c <= 999)
-		
+	int i, e, g;
+
+	i = 48;
+	e = 48;
+	g = 48;
+
+	while (e < 58)
 	{
-		f_d = (c / 100 + '0');
-
-		m_d = (c / 10 % 10 + '0');
-
-		l_d = (c % 10 + '0');
-		if ((f_d < m_d) && (m_d < l_d))
+		i = 48;
+		while (i < 58)
 		{
-			putchar(f_d);
-
-			putchar(m_d);
-
-			putchar(l_d);
-
-			if (c != 789)
-
+			g = 48;
+			while (g < 58)
 			{
-				putchar(',');
-				putchar(' ');
+				if (e != i && e != g && i != g && e < i && i < g)
+				{
+					putchar(e);
+					putchar(i);
+					putchar(g);
+					if (i == 56 && e == 55 && g == 57)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
+				}
+				g++;
 			}
+			i++;
 		}
-		c++;
+		e++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
