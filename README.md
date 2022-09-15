@@ -1,43 +1,25 @@
-0. Positive anything is better than negative nothing
+0-isupper.c	Chekcs for uppercase character
 
-This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+1-isdigit.c	Checks for a digit (0 through 9)
 
-1. The last digit
+2-mul.c	Multiplies two integers
 
-This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
+3-print_numbers.c	Prints the numbers, from 0 to 9
 
-2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+4-print_most_numbers.c	Prints the numbers, from 0 to 9, except 2 and 4
 
-Write a program that prints the alphabet in lowercase, followed by a new line.
+5-more_numbers.c	Prints 10 times the numbers, from 0 to 14
 
-3. When I was having that alphabet soup, I never thought that it would pay off
+6-print_line.c	Draws a straight line in the terminal
 
-Write a program that prints the alphabet in lowercase (except q and e), followed by a new line.
+7-print_diagonal.c	Draws a diagonal line in the terminal
 
-4. alphABET
+8-print_square.c	Prints a sqaure
 
-Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+9-fizz_buzz.c	Prints Fizz-Buzz test
 
-5. Numbers
+10-print_triangle.c	Prints a triangle
 
-Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+100-prime_factor.c	Finds and prints the largest prime factor of the number 612852475143
 
-6. Numberz
-
-Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
-
-7. Smile in the mirror
-
-Write a program that prints the lowercase alphabet in reverse, followed by a new line.
-
-8. Hexadecimal
-
-Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
-
-9. Patience, persistence and perspiration make an unbeatable combination for success
-
-Write a program that prints all possible combinations of single-digit numbers.
-
-10. 00...99
-
-Write a program that prints the numbers from 00 to 99.
+101-print_number.c	Prints an integer
