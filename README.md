@@ -1,25 +1,25 @@
-0-isupper.c	Chekcs for uppercase character
+0-strcat.c	Concatenates two strings
 
-1-isdigit.c	Checks for a digit (0 through 9)
+1-strncat.c	Concatenates two strings, using n bytes from src
 
-2-mul.c	Multiplies two integers
+2-strncpy.c	Copies a string
 
-3-print_numbers.c	Prints the numbers, from 0 to 9
+3-strcmp.c	Compares two strings
 
-4-print_most_numbers.c	Prints the numbers, from 0 to 9, except 2 and 4
+4-rev_array.c	Reverses the content of an array of integers
 
-5-more_numbers.c	Prints 10 times the numbers, from 0 to 14
+5-string_toupper.c	Changes all lowercase letters of a string to uppercase
 
-6-print_line.c	Draws a straight line in the terminal
+6-cap_string.c	Capitalizes all words of a string
 
-7-print_diagonal.c	Draws a diagonal line in the terminal
+7-leet.c	Encodes a string into 1337
 
-8-print_square.c	Prints a sqaure
+8-rot13.c	Encodes a string using rot13
 
-9-fizz_buzz.c	Prints Fizz-Buzz test
+100-print_number.c	Prints an integer
 
-10-print_triangle.c	Prints a triangle
+101-magic.c	Changes the value of an index of an integer array
 
-100-prime_factor.c	Finds and prints the largest prime factor of the number 612852475143
+102-infinite_add.c	Adds two numbers
 
-101-print_number.c	Prints an integer
+103-print_buffer.c	Prints a buffer
